@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from 'react';
 import { Edit2, Trash2, Check, Target } from 'lucide-react';
 import { Habit, toggleHabitCompletion, isHabitCompletedToday, deleteHabit } from '@/lib/habitStorage';
